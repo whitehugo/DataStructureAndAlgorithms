@@ -84,9 +84,6 @@ int main()
 	
 	cout << "Recursion costs " << milliRecur << " milliseconds," << duration_cast<seconds>(d).count() << " seconds." <<endl;
 	
-	/*
-		计算第n个斐波那契数，当n越大，尾递归的速度优势越明显。
-	*/
 	cout << "Tail Recursion is " << (float)milliRecur/(float)milliTail << " times faster than ordinary Recursion." << endl;
 	
 	getchar();
